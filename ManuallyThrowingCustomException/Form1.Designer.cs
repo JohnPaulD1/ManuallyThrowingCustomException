@@ -174,12 +174,15 @@
             // 
             // btnAddProduct
             // 
+            this.btnAddProduct.BackColor = System.Drawing.Color.Ivory;
+            this.btnAddProduct.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.btnAddProduct.Location = new System.Drawing.Point(612, 276);
+            this.btnAddProduct.Margin = new System.Windows.Forms.Padding(10);
             this.btnAddProduct.Name = "btnAddProduct";
             this.btnAddProduct.Size = new System.Drawing.Size(75, 23);
             this.btnAddProduct.TabIndex = 15;
             this.btnAddProduct.Text = "Add Product";
-            this.btnAddProduct.UseVisualStyleBackColor = true;
+            this.btnAddProduct.UseVisualStyleBackColor = false;
             this.btnAddProduct.Click += new System.EventHandler(this.btnAddProduct_Click);
             // 
             // gridViewProductList
@@ -194,6 +197,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.BackColor = System.Drawing.Color.Cornsilk;
             this.ClientSize = new System.Drawing.Size(699, 530);
             this.Controls.Add(this.gridViewProductList);
             this.Controls.Add(this.btnAddProduct);
